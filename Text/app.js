@@ -21,7 +21,7 @@
 
 // const age  = prompt("나이를 입력하세요");
 // console.log(age);
-// console.log(Number(age))
+// console.log(Number(age));
 
 const msg = confirm('로그아웃 하시겠습니까?');
 console.log(msg);
