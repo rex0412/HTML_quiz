@@ -11,9 +11,7 @@ const menu_login = document.querySelector("#login-link");
 
 function loginAlert() {
 
-    
 }
-
 
 function askId() {
     const user_id = prompt("ID값을 입력해주세요");
