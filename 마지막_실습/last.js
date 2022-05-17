@@ -16,6 +16,7 @@ function loginAlert() {
 function askId() {
     const user_id = prompt("ID값을 입력해주세요");
     console.log(user_id);
-}
+    login_menu.innerHTML = user_id;
+
 const login_menu = document.querySelector("#login-link");
 login_menu.addEventListener("click", askId);
